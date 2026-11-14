@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>6f2c8f3e-1b47-4a0e-9d55-3a7e2c94b1d6</Id>
+    <RepoId>buttheadbob/Monitor</RepoId>
+    <FriendlyName>Monitor</FriendlyName>
+    <Author>SentorX</Author>
+    <Tooltip>Live performance monitor for Magnetar servers, built to find the cause of lag.</Tooltip>
+    <Description>Monitor measures what is hurting sim speed, including during the worst lag. It notices lag by itself and keeps the evidence, and it lets players see what their own grids cost.
+
+Needs the Monitor Magnetar plugin on the servers. Includes a small companion Magnetar plugin (senx.monitor) that Quasar adds to managed servers; restart servers that were running when this plugin was enabled. Each cluster node shows as its own server.</Description>
+    <PluginKind>QuasarUiPlugin</PluginKind>
+    <ProjectPath>src/SenX.Monitor.Quasar/SenX.Monitor.Quasar.csproj</ProjectPath>
+    <PackageManifest>quasar-plugin.json</PackageManifest>
+    <QuasarVersion>&gt;=1.6.0</QuasarVersion>
+    <Recommended>false</Recommended>
+    <ImplicitLoading>false</ImplicitLoading>
+    <CompanionPluginIds>
+        <CompanionPluginId>senx.monitor</CompanionPluginId>
+    </CompanionPluginIds>
+    <Commit>4ee125b22631377a1f8ad27da60a6d874e14a2ee</Commit>
+</PluginData>
